@@ -512,91 +512,43 @@ footer {
    Mobile Navbar
 ========================== */
 
-
-#menu-toggle{
-
+#menu-toggle {
     display:none;
-
 }
 
-
-.menu-icon{
-
+.menu-icon {
     display:none;
-
     font-size:30px;
-
     cursor:pointer;
-
     color:#00ffff;
-
 }
 
+@media(max-width:768px) {
 
-
-
-
-@media(max-width:768px){
-
-
-nav{
-
+nav {
     flex-direction:row;
-
     justify-content:space-between;
-
 }
 
-
-
-.menu-icon{
-
+.menu-icon {
     display:block;
-
 }
 
-
-
-.nav-links{
-
-
+.nav-links {
     position:absolute;
-
     top:75px;
-
     left:0;
-
     width:100%;
-
-
     background:#080d1f;
-
-
     flex-direction:column;
-
     align-items:center;
-
     gap:25px;
-
-
     padding:30px 0;
-
-
     display:none;
-
-
 }
 
-
-
-#menu-toggle:checked ~ .nav-links{
-
-
+#menu-toggle:checked ~ .nav-links {
     display:flex;
-
-
 }
-
-
 
 }
